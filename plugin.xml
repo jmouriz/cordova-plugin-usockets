@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-usockets"
+    version="1.0.0">
+   <name>uSockets</name>
+   <description>Cordova plugin for uSockets library</description>
+   <author>Juan Manuel Mouriz</author>
+   <keywords>network,broadcast,server,client,socket,udp,tcp,raw,ndk,native,c</keywords>
+   <license>Apache 2.0 License</license>
+   <engines>
+      <engine name="cordova-android" version=">=1.7.0" />
+   </engines>
+   <lib-file src="src/libusockets/libusockets.so" arch="device" />
+   <lib-file src="src/libusockets/notification-daemon" arch="device" />
+   <lib-file src="src/libusockets/notification-client" arch="device" />
+</plugin>
