@@ -11,7 +11,7 @@
    <engines>
       <engine name="cordova-android" version=">=1.7.0" />
    </engines>
-   <lib-file src="lib/libusockets.so" arch="arm" />
-   <lib-file src="lib/notification-daemon" arch="arm" />
-   <lib-file src="lib/notification-client" arch="arm" />
+   <lib-file src="lib/libusockets.so" arch="ARM" />
+   <lib-file src="lib/notification-daemon" arch="ARM" />
+   <lib-file src="lib/notification-client" arch="ARM" />
 </plugin>
